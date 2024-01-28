@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #f9ecee;
+  font-family: Monaco, Monospace;
+
+}
+
+h2 {
+  padding: 2rem 0;
+}
+
+img[alt="candylogo"] {
+  height: 5rem;
+  width: 5rem;
+  justify-content: left;
+}
+
+a {
+  color: #685154;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.section {
+  padding: 1rem;
+  background-color: #f0f0f1;
+}
+
+@media only screen and (min-width: 799px) {
+  #youtube-video {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 10rem;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  #youtube-video {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+  }
+}
+
+iframe {
+  max-width: 80%;
+  aspect-ratio: 16 / 9;
+}
+
+#youtube-video>h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding-bottom: 4.5rem;
+}
+
+#email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  margin-top: 25rem;
+}
+
+#email-form input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#email-form input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+
+  background-color: #f0f0f1;
+  border: 1px solid #926f74;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (min-width: 799px) {
+  header {
+    position: fixed;
+    top: 0;
+    min-height: 6rem;
+    min-width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f1;
+    border-bottom: 1px solid #926f74;
+  }
+
+
+  nav {
+    width: auto;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    width: auto;
+    padding: 1rem;
+    list-style-type: none;
+  }
+
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icon img {
+    max-width: 128px;
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  header {
+    top: 0;
+    min-height: 6rem;
+    min-width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f1;
+    border-bottom: 1px solid #926f74;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  nav {
+    width: auto;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    width: auto;
+    padding: 1rem;
+    list-style-type: none;
+  }
+
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
+  .icon img {
+    max-width: 128px;
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+}
+
+.lign {
+  border-top: 1px solid #926f74;
+  margin-top: 5rem;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  margin: 10px;
+  padding: 5rem;
+  background-color: #f0f0f1;
+  border: 1px solid #926f74;
+}
+
+.level {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.btn {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+
+  background-color: #f0f0f1;
+  border: 1px solid #926f74;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 3rem;
+}
+
+footer {
+  margin-top: 3.5rem;
+  background-color: #f0f0f1;
+  padding: 0.5rem;
+  min-height: 3rem;
+  min-width: 100%;
+  border-top: 1px solid #926f74;
+}
+
+footer>ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer>ul>li {
+  padding: 0 1rem;
+
+}
+
+footer>span {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  font-family: Monaco, Monospace;
+
+}
